@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>   
+    <script src="https://kit.fontawesome.com/c0078485ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body class="body">
+
+    <div class="container">
+
+
+
+        <div class="login-container">
+
+            <div>
+                <p class="text-h2">Desempenho de corridas</p>
+            </div>
+
+            
+
+                <div class="input-div">
+                    <div>
+                        <p>Digite seu nome </p>
+                        <input class="input" type="text" id="nome">
+                    </div>
+                </div>
+                <div class="input-div">
+                    <div class="div">
+                        <p>Digite o seu peso em (kg) Ex: 70</p>
+                        <input class="peso" type="number" id="peso">
+                    </div>
+                </div>
+
+                <div class="input-div">
+                  <div class="div">
+                      <p>Digite a distância</p>
+                      <input class="distancia" type="number" id="distancia">
+                  </div>
+                </div>
+
+                <div class="input-div">
+                    <div class="div">
+                        <p>Digite o tempo percorrido em horas, minutos e segundos (separado por vírgula) Ex: 1,45,40  </p>
+                        <input class="tempo" type="text" id="tempo">
+                    </div>
+                </div>
+
+                <div class="div-button">
+                    <button type="submit" class="opa" id="calculate">Calcular</button>
+                </div>
+
+                <hr>
+
+                <div class="result" id='resultado'></div>
+            
+
+
+        </div>
+
+
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+
+</html>
